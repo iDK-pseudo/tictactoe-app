@@ -1,0 +1,86 @@
+html {
+    height : 100%;
+}
+
+
+body {
+    background-color: #c83e4d;
+    padding : 3%;
+    margin : 0;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+#container {
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height : 60%;
+    position: relative;
+    top : 50%;
+    text-align: center;
+}
+
+.cell {
+    font-size: 80px;
+    color : white;
+    height : 15vh;
+    border : 1.5px solid white;
+    background-color : #202030;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cell:active {
+    background-color: white;
+    color : black;
+}
+
+#header {
+    color : white;
+    font-size: 400%;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+label {
+    font-size: 30px;
+    color : white;
+    font-family: 'Teko', sans-serif;
+}
+
+input{
+    color : white;
+    background-color: black;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    padding : 2%;
+}
+
+input[type = checkbox]{
+    transform: scale(2);
+    margin-right: 5%;
+}
+
+button {
+    background-color : #202030;
+    color : white;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    bottom : 10%;
+    left : 30%;
+    padding: 2%;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+p,li{
+    text-align: left;
+    font-size: 20px;
+    color : white;
+    font-family: "Teko";
+    padding : 0;
+    margin-left : 10%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TicTacToe App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+        <script src="Driver.js" async defer></script>
+        <script src="GameBoard.js" async defer></script>
+        <script src="Players.js" async defer></script>
+    </head>
+    <body>
+        <div id="header"> TIC TAC TOE </div>
+        <form id = "main-form" style = "text-align: center;">
+            <label>Player A</label><br><br>
+            <input type = "text" name = "playerA"/><br><br>
+            <label>Player B</label><br><br>
+            <input type = "text" name = "playerB"/><br><br>
+            <!-- <input type = "checkbox" name = "computer"> <label> Play against Computer ? </label><br><br> -->
+            <button id = "submit-btn" type ="submit">Let's Go !</button>
+            <p> Player names can contain 
+                <ul>
+                    <li>[A-z]</li>
+                    <li>[0-9]</li>
+                    <li>_ (underscore)</li>
+                </ul>
+            </p>
+        </form>    
+    </body>
+</html>
