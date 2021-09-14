@@ -1,4 +1,4 @@
-const PlayerModule = (function () {
+export const PlayerModule = (function () {
    let playersList = [],currPlayer = null,currPlayerIndex = 0;
    
    function init(formData){

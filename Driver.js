@@ -1,4 +1,7 @@
-var MainModule = (function () {
+import { GameModule } from "./GameBoard.js";
+import { PlayerModule } from "./Players.js";
+
+const MainModule = (function () {
     let gameController = null,playerController = null,formData = null;
 
     function init () {

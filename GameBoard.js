@@ -1,4 +1,6 @@
-var GameModule = (function () {
+import { PlayerModule } from "./Players.js";
+
+export const GameModule = (function () {
     let gameBoard = [],containerEle = null,playerController = null;
     function init (){
         if(gameBoard.length === 0){
@@ -92,7 +94,7 @@ var GameModule = (function () {
             if(win) return true;
         }
         win = true;
-        
+
         //For Diagonal
         for(let i=0,j=0;i<gameBoard.length && j<gameBoard[i].length;i++,j++){
             if(gameBoard[i][j]!==tag){
